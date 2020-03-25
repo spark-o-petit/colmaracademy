@@ -2,11 +2,58 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.content--primary {
+  background-color: lightgray;
+  overflow: auto;
+  color: #010202;
+}
+
+.content--secondary {
+  overflow: auto;
+}
 .main--contents {
-  display: flex;
+  width: 50%;
+}
+
+.sub--contents {
+  width: 40%;
+}
+
+.side--contents {
+  float: right;
+  width: 40%;
+  overflow: auto;
+}
+.container--s {
+  width: 40%;
+  overflow: auto;
+}
+
+.side--contents img {
+  width: 35%;
+  height: auto;
+  padding: 16px;
+  float: left;
+}
+
+.side--contents h4,
+p,
+a {
+  margin: 8px auto;
 }
 
 .main--contents img {
-  width: 60%;
+  float: left;
+  width: 80%;
   padding: 32px 24px;
+}
+
+.courses {
+  display: flex;
+  padding: 32px 72px;
+  background-color: lightgray;
+}
+
+.course-banner {
+  width: ;
 }
